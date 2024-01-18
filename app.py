@@ -62,4 +62,4 @@ try:
         img.close()
 
 except RuntimeError:
-    st.info(f"Please upload other picture. I don't like this picture! {'&#128527'}")
+    st.info(f"Please upload other picture. This picture is don't like me")
