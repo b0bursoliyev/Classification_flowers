@@ -1,0 +1,3 @@
+streamlit==1.24.0
+PIL==9.5.0
+fastai==2.7.13
