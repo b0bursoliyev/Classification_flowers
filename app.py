@@ -16,7 +16,7 @@ st.title("Flower Classification")
 st.info("This model can classify 5 type of flowers. They are daisy,dandelion,roses,sunflowers, and tulips")
 
 # File upload section
-uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("Choose an image...", type=[".jpg", ".jpeg", ".png"])
 
 if uploaded_file:
     # Read the image file
